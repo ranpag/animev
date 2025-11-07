@@ -1,0 +1,92 @@
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+/* fieldset */
+
+.input-fieldset {
+    border: 1px solid black;
+    border-radius: 6px;
+    display: inline-flex;
+    flex-direction: column;
+    padding: 2px;
+    margin: 0;
+}
+
+.input-fieldset legend {
+    font-size: 1rem;
+    padding: 0 8px;
+    font-weight: bold;
+}
+
+.input-fieldset input {
+    border: none;
+    outline: none;
+    font-size: 12px;
+}
+
+.input-fieldset input[type="number"] {
+    width: 100%;
+}
+
+.input-fieldset select {
+    border: none;
+    outline: none;
+    font-size: 12px;
+    background-color: white;
+}
+
+.input-fieldset .join {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.input-fieldset .checkbox-group {
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+/* button */
+
+.btn {
+    border: 1px solid black;
+    border-radius: 6px;
+    background-color: white;
+    padding: 8px;
+}
+
+.btn:active {
+    background-color: gray;
+}
+
+/* div as input checkbox */
+
+div.checkbox3-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 11px;
+    height: 11px;
+    border: 1px solid black;
+    border-radius: 2px;
+    cursor: pointer;
+    color: white;
+}
+
+div.checkbox3-container.checked {
+    background-color: green;
+    border-color: green;
+}
+
+div.checkbox3-container.crossed {
+    background-color: red;
+    border-color: red;
+}
+
+/* other */
+
+.inactive {
+    border: 1px solid grey;
+    color: grey;
+}

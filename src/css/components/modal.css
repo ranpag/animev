@@ -1,0 +1,26 @@
+.modal {
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 15px;
+    position: absolute;
+    top: 8%;
+    left: 15%;
+    width: 70%;
+    max-width: 80%;
+    height: max-content;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 6px;
+    padding: 12.5px;
+}
+
+.modal-body {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.modal-foot {
+    align-self: flex-end;
+}

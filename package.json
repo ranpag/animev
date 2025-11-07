@@ -1,0 +1,16 @@
+{
+	"name": "animev",
+	"version": "1.0.0",
+	"scripts": {
+		"build": "vite build"
+	},
+	"keywords": [],
+	"author": "ranpag",
+	"license": "MIT",
+	"description": "Anime Explorer is a minimalist single-page web application inspired by MyAnimeList. It allows users to search, explore, and view detailed information about anime using the Jikan API, an unofficial MyAnimeList REST API.",
+	"devDependencies": {
+		"vite": "^7.1.12",
+		"vite-plugin-html-minifier-terser": "^3.8.0",
+		"vite-plugin-lightningcss": "^0.0.5"
+	}
+}

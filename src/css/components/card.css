@@ -1,0 +1,83 @@
+.card-fieldset {
+    border: 1px solid black;
+    border-radius: 6px;
+    display: inline-flex;
+    flex-direction: column;
+    padding: 2px;
+    margin: 0;
+    align-items: center;
+    gap: 5px;
+    max-width: 400px;
+}
+
+.card-fieldset legend {
+    padding: 2px 5px 0 5px;
+    border: 1px solid black;
+    border-radius: 3px;
+    font-size: 15px;
+}
+
+.card-fieldset header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.card-fieldset hgroup {
+    width: 100%;
+}
+
+.card-fieldset h3,
+.card-fieldset h5,
+.card-fieldset p,
+.card-fieldset figcaption {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 4px 2px;
+}
+
+.card-fieldset .save {
+    padding: 8px 12px;
+}
+
+.card-fieldset .saved {
+    background-color: yellow;
+}
+
+.card-fieldset article {
+    display: flex;
+    gap: 8px;
+}
+
+.card-fieldset figure {
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 0;
+}
+
+.card-fieldset img {
+    border-radius: 5px;
+    image-rendering: optimizeSpeed;
+    border-bottom: 1px solid black;
+    max-height: 310px;
+    max-width: 225px;
+    object-fit: contain;
+}
+
+.card-fieldset figcaption {
+    margin: 0;
+}
+
+.card-fieldset .info {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.card-fieldset p {
+    -webkit-line-clamp: 12;
+    margin: 0;
+}

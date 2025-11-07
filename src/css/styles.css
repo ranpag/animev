@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import 'components/input.css';
+@import 'components/modal.css';
+@import 'components/badge.css';
+@import 'components/card.css';
+
+* {
+    font-family: "Indie Flower", cursive;
+}
+
+#layout {
+    display: flex;
+    flex-wrap: nowrap;
+    height: 100vh;
+    position: relative;
+}
+
+#leftSidebar {
+    min-width: 300px;
+    height: 100%;
+    padding: 5px;
+    padding-right: 10px;
+    border-right: 1px solid black;
+}
+
+#sidebarFormSearch {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+#rightSidebar {
+    min-width: 300px;
+    height: 100%;
+    padding: 5px;
+    padding-left: 10px;
+    border-left: 1px solid black;
+}
+
+#mainContent {
+    width: 100%;
+    height: 100%;
+    padding: 0 8px;
+    position: relative;
+}
+
+#tab {
+    display: flex;
+    border-bottom: 1px solid black;
+    gap: 8px;
+}
+
+#tab span {
+    padding: 3px 6px 0 6px;
+    font-size: 17px;
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+}
+
+#tab span:first-child {
+    padding: 3px 13px 0 13px;
+}
+
+#tab span:last-child {
+    padding: 3px 13px 0 13px;
+    margin-left: auto;
+}
+
+#pagination {
+    display: none;
+    position: absolute;
+    bottom: 20px;
+    right: 12px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#animeCardContainer {
+    height: 100%;
+    overflow-y: scroll;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(250px, 1fr));
+    gap: 8px;
+}
+
+@media (max-width: 1800px) {
+    #rightSidebar {
+        display: none;
+    }
+}
+
+@media (max-width: 1535px) {
+    #animeCardContainer {
+        grid-template-columns: repeat(2, minmax(250px, 1fr));
+    }
+}

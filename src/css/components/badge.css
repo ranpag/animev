@@ -1,0 +1,27 @@
+.badge-container {
+    display: flex;
+    width: 100%;
+    min-height: 15px;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 3px;
+    padding: 3px;
+}
+
+.badge {
+    padding: 2px 5px 0 5px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+.badge.badge-yes {
+    border-color: green;
+    background-color: lightgreen;
+    color: black;
+}
+
+.badge.badge-not {
+    border-color: red;
+    background-color: lightcoral;
+    color: white;
+}

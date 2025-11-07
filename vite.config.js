@@ -3,6 +3,7 @@ import lightningcss from "vite-plugin-lightningcss"
 import htmlMinifier from "vite-plugin-html-minifier-terser"
 
 export default defineConfig({
+	base: "/animev/",
 	root: "src",
 	plugins: [
 		lightningcss({
